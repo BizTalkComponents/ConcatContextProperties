@@ -7,7 +7,7 @@ Allows to concatenate several context properties and text values and writes the 
 |--|--|--|
 |Parameters |String (Required)| A parameters array separated by comma, parameters can be fixed text or context properties (see n |
 |ThrowException| Boolean | If true, the component throws an exception if a parameter is invalid, the default is false.
-|PropertyPath| String (Required)|The context property the concatenated value will be stored in.
+|PropertyPath| String (Required)|The context property the concatenated value will be stored in (http://namespace#property)
 |PromoteProperty| Boolean| if true, the property specified in the PropertyPath will be promoted, otherwise it will be written to the context without promotion.
 
 ### *Parameters*
