@@ -1,3 +1,4 @@
+
 # Concat Context Properties
 Allows to concatenate several context properties and text values and writes the result to a context property.
 
@@ -14,6 +15,7 @@ The p parameters propetry is an array of parameters sepeared by comma, like conc
 A parameter can be a fixed text or a context property, fixed texts must be quoted with double quotation "text value", while a context property must be enclosed with curly brackets {http://namespace#property}.
 There are few special characters allowed in the text parametes, these characters are: {CR}, {LF}, {CRLF}, {TAB}
 the following is an example of the parameters property value:
->>>"Get{TAB}Properties{CRLF}",{https://namespace1#property1},"-",{https://namespace2#property2}
-
+~~~ 
+"Get{TAB}Properties{CRLF}",{https://namespace1#property1},"-",{https://namespace2#property2}
+~~~
 if a property does not exist in the message context, and ThrowException is set to True, InvalidArgumentException will be thrown, otherwise, the property will be ignored and it will be repalced with empty string.
