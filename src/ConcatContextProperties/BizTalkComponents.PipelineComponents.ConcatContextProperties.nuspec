@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BizTalkComponents.PipelineComponents.ConcatContextProperties</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Concat Context Properties</title>
     <authors>Wael Alissa</authors>
     <owners>Wael Alissa</owners>
