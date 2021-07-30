@@ -19,7 +19,7 @@
   <Target Name="GenerateMsi" DependsOnTargets="GetVersion">
 		<MsiTask  ApplicationDescription="$(ApplicationDescription)"
               Version="%(Info.AssemblyInformationalVersion)"
-              FileName="BizTalkComponents.PipelineComponents.SetTypedProperty%(Info.AssemblyInformationalVersion).msi"
+              FileName="BizTalkComponents.PipelineComponents.ConcatContextProperties%(Info.AssemblyInformationalVersion).msi"
               DestinationPath="$(DestinationPath)"
               ApplicationName="$(ApplicationName)"
               BtsAssemblies="@(BtsAssembly)"
