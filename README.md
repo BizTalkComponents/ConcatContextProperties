@@ -1,4 +1,4 @@
-
+[![Build status](https://ibizsolutions.visualstudio.com/BizTalkComponents/_apis/build/status/Concat%20Context%20Properties)](https://ibizsolutions.visualstudio.com/BizTalkComponents/_build/latest?definitionId=565)
 # Concat Context Properties
 Allows to concatenate several context properties and text values and writes the result to a context property.
 
