@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.ConcatContextProperties</id>
+    <version>$version$</version>
+    <title>Concat Context Properties</title>
+    <authors>Wael Alissa</authors>
+    <owners>Wael Alissa</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/BizTalkComponents/ConcatContextProperties</projectUrl>
+    <description>ConcatContextProperties is a pipeline component that allows to concatenate context propertiers and writes context result to another context property.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+  <files>
+    <file src="bin\release\BizTalkComponents.PipelineComponents.ConcatContextProperties.dll" target="lib\net45"/>
+  </files>
+</package>
