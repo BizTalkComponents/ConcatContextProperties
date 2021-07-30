@@ -17,11 +17,11 @@ namespace BizTalkComponents.PipelineComponents.ConcatContextProperties
 
     public partial class ConcatContextProperties : IBaseComponent, IComponent, IComponentUI, IPersistPropertyBag
     {
-        private const string ParamRegEx = @"(?<param>\"".*?\""|\{.+?#.+?\})(?:,(?<param>\"".*?\""|\{.+?#.+?\}))+$";
+        private const string ParamRegEx = @"(?<param>\"".*?\""|\{.+?#.+?\})(?:\s*,\s*(?<param>\"".*?\""|\{.+?#.+?\}))+$";
         [RequiredRuntime]
         [DisplayName("Parameters to concatenate ")]
         [Description("Specify the parameters to concatenate, e.g. text1,{http://namespace#property},text2")]
-        [RegularExpression(@"^(\"".*?\""|\{.+?#.+?\})(,(\"".*?\""|\{.+?#.+?\}))+$")]
+        [RegularExpression(@"^(\"".*?\""|\{.+?#.+?\})(\s*,\s*(\"".*?\""|\{.+?#.+?\}))+$")]
         public string Parameters { get; set; }
 
         [RequiredRuntime]
